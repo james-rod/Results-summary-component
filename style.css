@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Hanken+Grotesk:wght@500&family=Kanit:ital,wght@1,200&family=Mina&family=Outfit&family=Red+Hat+Display:wght@500&family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+}
+
+.outer-container{
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 615px;
+    height: 435px;
+    box-shadow: 5px 5px 40px rgba(17, 37, 212 , 0.1); 
+    
+}
+
+.purple-container{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 40px;
+    width: 315px;
+}
+
+.heading-result{
+    color: hsl(241, 100%, 89%);;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.gradient-container{
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.score{
+    font-size: 65px;
+    color: white;
+}
+
+.total{
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.information{
+    margin: 20px auto;
+    width: 220px;
+
+}
+
+.information, h2{
+    text-align: center;
+    color: white;
+}
+
+.message{
+    margin: 20px auto;
+    color: hsl(241, 100%, 89%);
+}
+
+.white-container{
+    width: 230px;
+}
+
+.summary-text{
+    color: black;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.reaction{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.memory{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.verbal{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.visual{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.icon{
+    vertical-align: middle;
+    width: 20px;
+}
+
+.scorenum1{
+    margin-left:  65px;
+}
+
+.scorenum2{
+    margin-left: 65px;
+}
+
+.scorenum3{
+    margin-left: 75px;
+}
+
+.scorenum4{
+    margin-left: 77px;
+}
+
+button{
+    margin-top: 20px;
+    border: none;
+    width: 223px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+@media screen and (max-width: 375px) { /*Mobile User*/
+    
+    .outer-container{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 615px;
+        height: 815px;
+    }
+
+    .purple-container{
+        width: 380px;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+    .information{
+        margin: 20px auto;
+        width: 260px;
+    }
+
+    .white-container{
+        margin-left: 110px;
+    }
+}
+
+
+  
